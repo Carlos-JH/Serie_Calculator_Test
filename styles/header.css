@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    max-width: 100%; /* Limita el ancho de la imagen  */
+    height: auto; /* la altura se ajuste automáticamente */
+    pointer-events: none;
+  }
+  
+  
+  .App-header {
+    background-color: #ffffff;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: rgb(68, 96, 223);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+  }
+  
+  .btn {
+    margin-right: 10px; /* Margen derecho entre los botones */
+    border: 1px solid #000; /* Añade un borde de 1px sólido */
+    border-radius: 5px; /* Añade bordes redondeados */
+    padding: 5px 10px; /* Ajusta el relleno interior */
+  }
+  
